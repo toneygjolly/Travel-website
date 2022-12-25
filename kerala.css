@@ -1,0 +1,64 @@
+.kerala{
+    padding: 10px 0;
+}
+
+h1{
+    text-align:center;
+    padding-bottom:30px;
+}
+.gallery{
+    padding:100px 0;
+    background: #efefef;
+}
+
+.gallery-box img{
+    width:30%;
+    border-radius:16px;
+    cursor:pointer;
+    transition:1s;
+}
+.gallery-box img:hover{
+    transform:scale(1.1);
+}
+
+.gallery-box h4{
+    display:block;
+    color:#fff;
+    text-shadow:-2px 2px 2px #000;
+    font-weight:600%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.gallery-box{
+    position:relative;
+    margin-bottom:30px;
+}
+.banner{
+    height:80vh;
+    background-image:url(images/banner2.jpg);
+    background-position: center;
+    background-size:cover;
+    background-attachment:fixed;
+    padding-top:14%;
+}
+
+.banner-highlights{
+    padding: 70px 0%;
+    background:rgba(0,0,0,0.7);
+    text-align:center;
+    color:#45a049;
+
+}
+.booking-btn{
+    width:120px;
+    padding:8px 0;
+    outline:none !important;
+    border:2px solid green(255, 255, 255);
+    border-radius:50px;
+    background:transparent;
+    color:#00ff7e(255, 255, 255);
+    margin-top:20px;
+}
